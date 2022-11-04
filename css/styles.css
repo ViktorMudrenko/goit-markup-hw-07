@@ -1,162 +1,9 @@
-:root{
-    --color-primary: #212121;
-    --color-secondary: #757575;
-    --color-brand: #2196f3;
-    --color-background: #2f303a;
-    --color-pouring: #f5f4fA;
-    --color-text-light: #fff;
-    --color-logo: #000;
-    --color-img:#afb1b8;
-
-    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    --time-trasform: 250ms;
-}
-
-body{
-    color: var(--color-primary);
-    font-family: 'Roboto', sans-serif;
-}
-
-ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-h1,   h2,   h3,   h4,   h5,   h6,   p {    margin: 0;   }
-
-img{
-    display: block;
-}
-
-.section{
-    padding: 94px  0;
-}
-
-.container{
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.list{
-    list-style: none;
-}
-
-
-/* header*/
-
-
-.header{
-    border-bottom: 1px solid rgba(236, 236, 236, 1)
-}
-
-.header-container{
-    display: flex;
-    align-items: center;
-}
-
-.nav-header{   
-    display: flex;
-    align-items: center;
-}
-
-.link-logo{
-    font-family: 'Raleway', sans-serif;
-    color: var(--color-logo);
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-}
-
-.header-navigation{
-    display: flex;
-    margin-left: 93px;
-}
-
-.navigation-item{
-    position: relative;
-}
-
-.navigation-item:not(:last-child){
-    margin-right: 50px;
-}
-
-.contacts-item:not(:last-child){
-    margin-right: 50px;
-}
-
-.navigation-link.current{
-    color: var(--color-brand);
-}
-
-.current::after{
-    display: inline-block;
-    content: "";
-    width: 100%;
-    height: 4px;
-    position: absolute;
-    background: #2196F3;
-    border: 1px solid var(--color-brand);
-    border-radius: 2px;
-    bottom: 0;
-    left: 0;
-}
-
-.navigation-link{
-    color: var(--color-primary);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    display: block;
-    padding: 32px 0;
-    transition: color var(--time-trasform) var(--timing-function);
-}
-
-.navigation-link:hover,.navigation-link:focus{
-    color: var(--color-brand);
-}
-
-.contacts{
-    display: flex;
-    margin-left: auto;
-}
-
-.contacts-link{
-    color: var(--color-secondary);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    padding: 32px 0;
-    transition: color var(--time-trasform) var(--timing-function);
-}
-
-.contacts-link:hover, .contacts-link:focus{
-    color: var(--color-brand);
-}
-
-.contacts-icon{
-    fill: currentColor;
-    margin-right: 10px;
-}
-
-
-
-/* ==WebStudio== */
-
 
 
 /* hero-section */
 
 
-.hero{
+.hero-section{
     padding: 200px 0;
     max-width: 1600px;
     height: 600px;
@@ -169,7 +16,7 @@ img{
 }
 
 
-.hero-title{
+.hero-section__title{
     width: 696px;
     margin: auto;
     font-weight: 900;
@@ -201,10 +48,6 @@ img{
 
 /* benefits-section */
 
-
-.benefits-section{
-    padding-top: 94px;
-}
 
 .benefits-list{
     display: flex;

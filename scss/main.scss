@@ -2,6 +2,8 @@
 @import "./utils/vars";
 @import "./utils/vars";
 
+@import "./components/activity-section";
+@import "./components/benefits-section";
 @import "./components/contacts";
 @import "./components/container";
 @import "./components/header";
@@ -9,3 +11,5 @@
 @import "./components/logo";
 @import "./components/navigation";
 @import "./components/section";
+@import "./components/team-section";
+@import "./components/team-social";

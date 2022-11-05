@@ -15,12 +15,12 @@
     border-radius: 50%;
     color: var(--color-img);
     transition: color var(--time-trasform) var(--timing-function), background-color var(--time-trasform) var(--timing-function);
-}
 
-.team-social__link:hover,
-.team-social__link:focus {
-    background-color: var(--color-brand);
-    color: var(--color-text-light);
+    &:hover,
+    &:focus {
+        background-color: var(--color-brand);
+        color: var(--color-text-light);
+    }
 }
 
 .team-social__icon {

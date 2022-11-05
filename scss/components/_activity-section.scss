@@ -1,5 +1,5 @@
 .activity {
-    padding-top: 0;
+    padding-bottom: 94px;
 }
 
 .activity__title {
@@ -16,10 +16,9 @@
 
 .activity__item {
     position: relative;
-}
-
-.activity__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .activity__text {

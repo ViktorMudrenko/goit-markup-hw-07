@@ -4,10 +4,10 @@
 
 .benefits__item {
     width: 270px;
-}
 
-.benefits__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+         margin-right: 30px;
+    }
 }
 
 .benefits__img {
